@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+}
+
+h1,
+#orderDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#orderDetails {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#orderDetails p {
+  margin-bottom: 10px;
+}
+
+#orderDetails p:last-child {
+  margin-bottom: 0;
+}
